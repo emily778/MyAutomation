@@ -9,6 +9,7 @@
       <class name="tests.SearchAllTest"/>
       <class name="tests.LoginTest"/>
       <class name="tests.ForgotPasswordTest"/>
+      emily
     </classes>
   </test> <!-- Testng -->
 </suite> <!-- Suite -->

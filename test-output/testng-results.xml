@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9093" started-at="2023-06-07T21:25:59 IDT" finished-at="2023-06-07T21:26:08 IDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9093" started-at="2023-06-07T21:25:59 IDT" finished-at="2023-06-07T21:26:08 IDT">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@42eca56e]" name="setup" is-config="true" duration-ms="4792" started-at="2023-06-07T21:25:59 IDT" finished-at="2023-06-07T21:26:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_failure()[pri:0, instance:tests.LoginTest@42eca56e]" name="login_failure" duration-ms="806" started-at="2023-06-07T21:26:04 IDT" description="Test enetering login page and enter incorrect info" finished-at="2023-06-07T21:26:05 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_failure -->
+        <test-method status="PASS" signature="login_success()[pri:0, instance:tests.LoginTest@42eca56e]" name="login_success" duration-ms="2768" started-at="2023-06-07T21:26:05 IDT" description="Test enetering login page and enter correct info" finished-at="2023-06-07T21:26:07 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_success -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@42eca56e]" name="tearDown" is-config="true" duration-ms="695" started-at="2023-06-07T21:26:07 IDT" finished-at="2023-06-07T21:26:08 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

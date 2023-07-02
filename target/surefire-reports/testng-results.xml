@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64015" started-at="2023-06-25T10:09:27 IDT" finished-at="2023-06-25T10:10:31 IDT">
+    <groups>
+    </groups>
+    <test name="Testng" duration-ms="64015" started-at="2023-06-25T10:09:27 IDT" finished-at="2023-06-25T10:10:31 IDT">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest@74ad1f1f]" name="setup" is-config="true" duration-ms="3086" started-at="2023-06-25T10:10:17 IDT" finished-at="2023-06-25T10:10:20 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login_failure()[pri:0, instance:tests.LoginTest@74ad1f1f]" name="login_failure" duration-ms="1098" started-at="2023-06-25T10:10:20 IDT" description="Test enetering login page and enter incorrect info" finished-at="2023-06-25T10:10:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_failure -->
+        <test-method status="PASS" signature="login_success()[pri:0, instance:tests.LoginTest@74ad1f1f]" name="login_success" duration-ms="3191" started-at="2023-06-25T10:10:22 IDT" description="Test enetering login page and enter correct info" finished-at="2023-06-25T10:10:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_success -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@74ad1f1f]" name="tearDown" is-config="true" duration-ms="825" started-at="2023-06-25T10:10:25 IDT" finished-at="2023-06-25T10:10:26 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.SearchAllTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SearchAllTest@1b26f7b2]" name="setup" is-config="true" duration-ms="2809" started-at="2023-06-25T10:10:04 IDT" finished-at="2023-06-25T10:10:06 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open_searchall()[pri:0, instance:tests.SearchAllTest@1b26f7b2]" name="open_searchall" duration-ms="5977" started-at="2023-06-25T10:10:06 IDT" description="Test opening Search All page" finished-at="2023-06-25T10:10:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_searchall -->
+        <test-method status="PASS" signature="search_result()[pri:0, instance:tests.SearchAllTest@1b26f7b2]" name="search_result" duration-ms="4140" started-at="2023-06-25T10:10:12 IDT" description="Test searching results message" finished-at="2023-06-25T10:10:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_result -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchAllTest@1b26f7b2]" name="tearDown" is-config="true" duration-ms="794" started-at="2023-06-25T10:10:17 IDT" finished-at="2023-06-25T10:10:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchAllTest -->
+      <class name="tests.AccountTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.AccountTest@1e7c7811]" name="setup" is-config="true" duration-ms="4510" started-at="2023-06-25T10:09:27 IDT" finished-at="2023-06-25T10:09:31 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="open_account()[pri:1, instance:tests.AccountTest@1e7c7811]" name="open_account" duration-ms="3337" started-at="2023-06-25T10:09:31 IDT" description="Test opening account page from search all page" finished-at="2023-06-25T10:09:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_account -->
+        <test-method status="PASS" signature="filling_form()[pri:2, instance:tests.AccountTest@1e7c7811]" name="filling_form" duration-ms="3618" started-at="2023-06-25T10:09:35 IDT" description="Test filling information and saving form" finished-at="2023-06-25T10:09:38 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filling_form -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.AccountTest@1e7c7811]" name="tearDown" is-config="true" duration-ms="1343" started-at="2023-06-25T10:09:38 IDT" finished-at="2023-06-25T10:09:40 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AccountTest -->
+      <class name="tests.NewEventTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.NewEventTest@11758f2a]" name="setup" is-config="true" duration-ms="3370" started-at="2023-06-25T10:09:40 IDT" finished-at="2023-06-25T10:09:43 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewEvent()[pri:0, instance:tests.NewEventTest@11758f2a]" name="createNewEvent" duration-ms="8307" started-at="2023-06-25T10:09:43 IDT" finished-at="2023-06-25T10:09:51 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEvent -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.NewEventTest@11758f2a]" name="tearDown" is-config="true" duration-ms="878" started-at="2023-06-25T10:09:51 IDT" finished-at="2023-06-25T10:09:52 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NewEventTest -->
+      <class name="tests.ViewMyFormsFilterTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ViewMyFormsFilterTest@e720b71]" name="setup" is-config="true" duration-ms="3098" started-at="2023-06-25T10:09:52 IDT" finished-at="2023-06-25T10:09:55 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="return_result()[pri:0, instance:tests.ViewMyFormsFilterTest@e720b71]" name="return_result" duration-ms="7579" started-at="2023-06-25T10:09:55 IDT" description="Test choosing from dropdown filter and returning number of results" finished-at="2023-06-25T10:10:03 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- return_result -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ViewMyFormsFilterTest@e720b71]" name="tearDown" is-config="true" duration-ms="879" started-at="2023-06-25T10:10:03 IDT" finished-at="2023-06-25T10:10:04 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ViewMyFormsFilterTest -->
+      <class name="tests.ForgotPasswordTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.ForgotPasswordTest@6a1aab78]" name="setup" is-config="true" duration-ms="2989" started-at="2023-06-25T10:10:26 IDT" finished-at="2023-06-25T10:10:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotPassword_click()[pri:0, instance:tests.ForgotPasswordTest@6a1aab78]" name="forgotPassword_click" duration-ms="763" started-at="2023-06-25T10:10:29 IDT" description="Test clicking and entering forgot your password page" finished-at="2023-06-25T10:10:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword_click -->
+        <test-method status="PASS" signature="Instructions()[pri:2, instance:tests.ForgotPasswordTest@6a1aab78]" name="Instructions" duration-ms="620" started-at="2023-06-25T10:10:29 IDT" description="Test entering username and clicking submit" finished-at="2023-06-25T10:10:30 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Instructions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ForgotPasswordTest@6a1aab78]" name="tearDown" is-config="true" duration-ms="733" started-at="2023-06-25T10:10:30 IDT" finished-at="2023-06-25T10:10:31 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ForgotPasswordTest -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>

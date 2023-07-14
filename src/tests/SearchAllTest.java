@@ -25,7 +25,7 @@ public class SearchAllTest extends BaseTest {
 	public void search_result() throws InterruptedException {
 		SearchAllPage search = new SearchAllPage(driver);
 		search.SearchAll("6/02/2023 12:00 AM", "6/10/2023 12:00 AM", "shavit1986@gmail.com");
-		String expected = "No records to display.";
+		String expected = "No records to display..";
 		String actual = search.getResult();
 		AssertJUnit.assertEquals(actual, expected);		
 	}

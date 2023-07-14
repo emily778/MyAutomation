@@ -1,12 +1,21 @@
 package tests;
 
 import org.testng.annotations.Test;
+
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Issue;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
 import static org.testng.Assert.assertEquals;
 import pageObject.AccountPage;
 import pageObject.LoginPage;
 import pageObject.SearchAllPage;
 
-
+@Epic("testing my account")
+@Feature("account details")
 public class AccountTest extends BaseTest {
 
 	@Test(priority = 1, description = "Test opening account page from search all page")
@@ -20,6 +29,9 @@ public class AccountTest extends BaseTest {
 		assertEquals(actual, expected);
 	}
 
+	@Severity(SeverityLevel.BLOCKER)
+	@Story("when i add details text saved should appear")
+	@Issue("2")
 	@Test(priority= 2, description = "Test filling information and saving form")
 	public void filling_form() throws InterruptedException {
 		AccountPage account = new AccountPage(driver);

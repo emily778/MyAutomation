@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class SearchAllPage extends BasePage {
 	
     @FindBy(css="#RadFromDatePicker_dateInput")
@@ -29,14 +31,17 @@ public class SearchAllPage extends BasePage {
 		fillText(email, txtemail);
 		Thread.sleep(1000);
 		click(clickSearch);
-	}	
+	}
+	
 	public String getResult () {
 		noRecords = driver.findElement(By.cssSelector(".rgNoRecords"));
 		return noRecords.getText();
-	}	
+	}
+	@Step("click on account tab")
 	public void clickAccount() {
 		click(clickAccount);
 	}
+	
 	public String acurl() {
 		String ac = driver.getCurrentUrl();
 		return ac;
